@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(1, 49, 94, 0.678);
+}
+h1 {
+    color: white;
+    margin-block-start: 0em;
+}
+h2{
+    color: rgba(211, 211, 211, 0.829);
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container{
+    background-color: rgba(43, 43, 43, 0.979);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 18em;
+    padding: 2em;
+    border-radius: 1em;
+    
+    
+}
+button{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    height: 3em;
+    width: 100% ;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5em;
+    margin: 5px;
+}
+.try{
+    color: white;
+}
